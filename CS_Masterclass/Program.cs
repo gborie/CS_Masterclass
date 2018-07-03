@@ -17,8 +17,8 @@ namespace CS_Masterclass
         
         /* This program
          * is made in order to
-         * learn how to create 
-         * hello world example
+         * learn how to print text
+         * in console
          */
     }
 }
