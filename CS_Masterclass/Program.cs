@@ -10,13 +10,29 @@ namespace CS_Masterclass
     {
         static void Main(string[] args)
         {
-            string myname = "Guillaume";
-            string message = "My name is " + myname;
-            string capsMessage = message.ToUpper();
-            string lowerCaseMessage = message.ToLower();
+            //Implicit conversion
+            int num = 12390532;
+            long bigNum = num;
 
-            Console.WriteLine(capsMessage);
-            Console.WriteLine(lowerCaseMessage);
+            float myFloat = 13.37F;
+            double myNewDouble = myFloat;
+
+
+            //Explicit conversion
+            //cast double to int;
+
+            double myDouble = 13.37;
+            int myInt;
+
+            myInt = (int)myDouble;
+
+            //Type Conversion
+
+            string myString = myDouble.ToString();
+            string myFloatString = myFloat.ToString();
+
+
+            Console.WriteLine(myFloatString);
             Console.Read();
         }
         
