@@ -11,9 +11,11 @@ namespace CS_Masterclass
         static void Main(string[] args)
         {
             int num1 = 13;
-            Console.WriteLine(num1);
-            Console.Read();
+            int num2 = 35;
+            int sum = num1 + num2;
 
+            Console.WriteLine(sum);
+            Console.Read();
         }
         
     }
