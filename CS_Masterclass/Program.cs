@@ -31,8 +31,11 @@ namespace CS_Masterclass
             string myString = myDouble.ToString();
             string myFloatString = myFloat.ToString();
 
+            bool sunIsShining = true;
+            string myBoolString = sunIsShining.ToString();
 
-            Console.WriteLine(myFloatString);
+
+            Console.WriteLine(myBoolString);
             Console.Read();
         }
         
