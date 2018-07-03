@@ -14,5 +14,11 @@ namespace CS_Masterclass
             Console.WriteLine("Hello World");
             Console.Read();
         }
+        
+        /* This program
+         * is made in order to
+         * learn how to create 
+         * hello world example
+         */
     }
 }
