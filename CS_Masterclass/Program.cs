@@ -15,12 +15,10 @@ namespace CS_Masterclass
             Console.Read();
         }
         
-        /* 
-         * This program
+        /* This program
          * is made in order to
          * learn how to create 
          * hello world example
-         * 
          */
     }
 }
