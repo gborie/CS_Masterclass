@@ -12,6 +12,7 @@ namespace CS_Masterclass
         static void Main(string[] args)
         {
             Console.WriteLine("Hello GB");
+            Console.WriteLine("C# is cool!");
             Console.Read();
         }
         
