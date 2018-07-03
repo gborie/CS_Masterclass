@@ -11,7 +11,7 @@ namespace CS_Masterclass
         // Starting point of program
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello GB");
             Console.Read();
         }
         
