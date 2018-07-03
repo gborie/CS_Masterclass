@@ -8,6 +8,7 @@ namespace CS_Masterclass
 {
     class Program
     {
+        // Starting point of program
         static void Main(string[] args)
         {
         }
