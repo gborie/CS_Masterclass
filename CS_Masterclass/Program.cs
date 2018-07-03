@@ -14,7 +14,7 @@ namespace CS_Masterclass
             int num2 = 35;
             int sum = num1 + num2;
 
-            Console.WriteLine(sum);
+            Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + sum );
             Console.Read();
         }
         
