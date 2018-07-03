@@ -10,32 +10,13 @@ namespace CS_Masterclass
     {
         static void Main(string[] args)
         {
-            //Implicit conversion
-            int num = 12390532;
-            long bigNum = num;
+            string myString = "15";
+            string mySecondString = "13";
+            int num1 = Int32.Parse(myString);
+            int num2 = Int32.Parse(mySecondString);
+            int resultInt= num1 + num2;
 
-            float myFloat = 13.37F;
-            double myNewDouble = myFloat;
-
-
-            //Explicit conversion
-            //cast double to int;
-
-            double myDouble = 13.37;
-            int myInt;
-
-            myInt = (int)myDouble;
-
-            //Type Conversion
-
-            string myString = myDouble.ToString();
-            string myFloatString = myFloat.ToString();
-
-            bool sunIsShining = true;
-            string myBoolString = sunIsShining.ToString();
-
-
-            Console.WriteLine(myBoolString);
+            Console.WriteLine(resultInt);
             Console.Read();
         }
         
