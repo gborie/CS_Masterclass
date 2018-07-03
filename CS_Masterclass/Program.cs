@@ -11,8 +11,12 @@ namespace CS_Masterclass
         static void Main(string[] args)
         {
             string myname = "Guillaume";
+            string message = "My name is " + myname;
+            string capsMessage = message.ToUpper();
+            string lowerCaseMessage = message.ToLower();
 
-            Console.WriteLine("My name is " + myname);
+            Console.WriteLine(capsMessage);
+            Console.WriteLine(lowerCaseMessage);
             Console.Read();
         }
         
