@@ -18,6 +18,7 @@ namespace CS_Masterclass
             double d2 = 1.337;
             double sumD = d1 + d2;
 
+            float f1 = 3.5F;
 
             Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + sum );
             Console.WriteLine("The sum of " + d1 + " and " + d2 + " is " + sumD);
