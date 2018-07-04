@@ -10,14 +10,15 @@ namespace CS_Masterclass
     {
         static void Main(string[] args)
         {
-            byte myByte = 25;
-            Console.WriteLine(myByte);
-            sbyte mySbyte = -15;
-            Console.WriteLine(mySbyte);
-            int myInt = -2147483648;
-            Console.WriteLine(myInt);
+            string myString = "15";
+            string mySecondString = "13";
+            int num1 = Int32.Parse(myString);
+            int num2 = Int32.Parse(mySecondString);
+            int resultInt = num1 + num2;
+
+            Console.WriteLine(resultInt);
             Console.Read();
         }
-        
+
     }
 }
